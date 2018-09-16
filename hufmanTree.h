@@ -1,4 +1,4 @@
-typedef mySize mySize;
+typedef unsigned long int mySize;
 
 typedef struct hufmanTree{
 	char *key;

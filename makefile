@@ -4,4 +4,4 @@ testhufman: $(files)
 	gcc -o $@ $^
 
 testhufmandebugger: $(files)
-	gcc -g $@ $^
+	gcc -g $^ -o $@
